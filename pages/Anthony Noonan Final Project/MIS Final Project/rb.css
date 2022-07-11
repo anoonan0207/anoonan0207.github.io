@@ -1,0 +1,202 @@
+/* Rosie's Bakery website cascading stylesheet
+
+	Name: Anthony Noonan
+	Date: July 24, 2016
+	Class: MIS 141
+*/
+
+html {
+	position:relative;
+	min-height:100%;
+}
+
+body {
+	background-image:url("background.jpg");
+	font-family:Verdana,Geneva,sans-serif;
+	color:rgb(153,214,239);
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+body ul li {
+	Display:inline;
+	background-color:rgb(153,214,239);
+	border-radius:10px;
+	text-decoration:none;
+	list-style-type:none;
+	padding:10px;
+	margin:10px;
+}
+
+body ul li a:link {
+	color:#ccff99;
+	text-decoration:none;
+}
+
+body ul li a:visited {
+	color:rgb(128,128,225);	
+}
+
+body ul li a:hover{
+	color:rgb(255,128,128);
+}
+
+body ul li {
+	color:rgb(225,0,128);
+}
+
+#main {
+	width:100%;
+	position:absolute;
+}
+
+
+footer {
+	font-size:10px;
+	text-indent:35%;
+}
+}
+
+fieldset {
+	border-style:none;
+	margin:5px;
+}
+
+fieldset legend {
+	background-color:rgb(239,198,145);
+	color:black;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-indent:20px;
+	width:100%;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+label {
+	display:block;
+	clear:left;
+	float:left;
+	font-size:.8em;
+	text-align:right;
+	margin-top:2px;
+	margin-bottom:5px;
+	width:25%;
+}
+
+input {
+	display:block;
+	float:left;
+	font-size:.9em;
+	width:60%;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+select {
+	display:block;
+	float:left;
+	font-size:.9em;
+	margin:2px;
+}
+
+textarea {
+	display:block;
+	float:left;
+	font-size:.9em;
+	height:75px;
+	width:60%;
+}
+
+.optiongroup {
+	margin-left:25%;
+}
+
+label input {
+	display:inline;
+	float:none;
+	width:98px;
+}
+
+fieldset label {
+	display:inline;
+	float:none;
+	margin:0px;
+	width:20px;
+	padding:0px;
+}
+
+input csc {
+	width:50px;
+}
+
+Input[type="SUBMIT"] {
+	color:rgb(255,128,128);
+	background-color:rgb(153,214,239);
+	clear:both;
+	width:150px;
+	height:30px;
+	margin-top:10px;
+	margin-bottom:10px
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:15px;
+}
+
+input:focus {
+	background-color:rgb(255,218,165);
+}
+
+select:focus {
+	background-color:rgb(255,218,165);
+}
+
+textarea:focus {
+	background-color:rgb(255,218,165);
+}
+
+input:focus:invalid {
+	background-color:rgb(255,245,215)
+	background-image:url('stop.png');
+	background-position:bottom right;
+	background-repeat:none;
+}
+
+input:focus:valid {
+	background-color:rgb(215,245,215);
+	background-image:url(go.png);
+	background-position:bottom right;
+	background-repeat:none;
+}
+
+div.coupon {
+	Border-style:dashed;
+	Border-color:rgb(128,128,225);
+	Border-width:2px;
+	Float:left;
+	Width:170px;
+	Height:200px;
+	Margin-top:20px;
+	Margin-bottom:20px;
+	Margin-left:10px;
+	Margin-right:10px;
+	Background-color:white;
+	Padding:0px;
+	
+}
+
+div.coupon h1 {
+	color:rgb(128,225,128);
+	Background-color:rgb(225,128,192);
+	Font-size:14px;
+	Letter-spacing:2px;
+	Text-align: center;
+	Height:25px;
+	Font-variant:small-caps;
+}
